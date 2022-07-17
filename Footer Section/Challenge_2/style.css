@@ -1,0 +1,155 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #140b5c;
+}
+
+/* top Class */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px 150px;
+  border-bottom: 1px solid #fff;
+}
+
+.fa-slack {
+  font-size: 2rem;
+  color: #fff;
+}
+.logo_name {
+  color: white;
+  font-size: 2rem;
+}
+.media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.media-icons .fab {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.fa-facebook-f {
+  background: #4267b2;
+}
+
+.fa-twitter {
+  background: #1ea1f1;
+}
+
+.fa-instagram {
+  background: #e12f6d;
+}
+.fa-linkedin-in {
+  background: #0277b5;
+}
+.fa-youtube {
+  background: #ff0000;
+}
+
+/* top class End */
+
+/* link-boxes class start */
+
+.link-boxes {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 150px;
+}
+
+ul li {
+  list-style: none;
+  margin: 15px 0;
+  font-weight: 350;
+}
+.link_name {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  position: relative;
+  width: fit-content;
+}
+
+.link_name::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 50%;
+  background: #fff;
+}
+
+a {
+  color: #d0cedf;
+}
+
+.input-box input {
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 120%;
+  background: transparent;
+  border: 2px solid #fff;
+}
+.input-box input::placeholder {
+  color: #fff;
+}
+[type="text"] {
+  margin-top: 10px;
+}
+[type="button"] {
+  width: 100%;
+  background: #d0cedf !important;
+  color: #140b5c;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* link-boxes class end */
+
+/* .bottom-details class start */
+.bottom-details {
+  background-color: #0f0844;
+  padding: 25px 150px;
+  font-weight: 300 !important;
+  color: #fff;
+}
+
+.copyright_text a {
+  margin-right: 10px;
+}
+
+.bottom_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* .bottom-details class end */

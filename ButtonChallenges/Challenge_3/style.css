@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #cfdfdf;
+}
+
+.btn-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn-wrapper button {
+  background: linear-gradient(to bottom, #20447b, #041d53);
+  border: none;
+  padding: 20px 40px;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-shadow: 10px 20px 30px #899394;
+}

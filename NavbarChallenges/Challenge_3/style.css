@@ -1,0 +1,87 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #dddddd;
+}
+
+.ribbon {
+  width: 70vw;
+  height: 80px;
+  position: relative;
+  margin: auto;
+  z-index: -1;
+}
+i {
+  width: 100px;
+  height: 33px;
+  background: #1c53c0;
+  position: absolute;
+  top: 130%;
+  clip-path: polygon(50% 0%, 100% 0, 99% 100%, 49% 100%, 0 0);
+}
+
+i:nth-child(2) {
+  top: 170%;
+  clip-path: polygon(50% 0%, 100% 0, 99% 100%, 0 100%, 35% 30%);
+}
+
+i:nth-child(2)::after {
+  position: absolute;
+  content: "";
+  width: 25%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background: #04313f;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 48% 51%);
+}
+
+i:nth-child(3) {
+  right: 0;
+  clip-path: polygon(50% 0%, 100% 0, 50% 100%, 0 100%, 0 0);
+}
+i:nth-child(4) {
+  right: 0;
+  top: 170%;
+  clip-path: polygon(50% 0%, 70% 38%, 100% 99%, 0 100%, 0 0);
+}
+
+i:nth-child(4)::after {
+  position: absolute;
+  content: "";
+  width: 25%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #04313f;
+  clip-path: polygon(0 0, 100% 0, 46% 54%, 0 100%);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 90px;
+  max-width: 60vw;
+  margin: auto;
+  background: #3d79d0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+a:hover {
+  background: #ffa500;
+  border-radius: 30px;
+}
